@@ -1,6 +1,4 @@
 # Advent-of-Code-2021
-
-# LeetCode-Problems
 Collection of Advent of Code 2021 problems solved!
 
 | Day | Title | Solution |  Type  |
