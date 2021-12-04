@@ -115,32 +115,8 @@ public class Day4Silver {
         }
     }
 
-    int atoi(String str) {
-        try{
-            return Integer.parseInt(str);
-        } catch (NumberFormatException ex){
-            return -1;
-        }
-    }
-
-    public void sortArrayList(ArrayList<Integer> arrayList) {
-        Collections.sort(arrayList);
-    }
-
     public String[] splitString(String buffer, char delimiter) {
         return buffer.split(String.valueOf(delimiter));
-    }
-
-    private ArrayList<Integer> getIntegerArray(ArrayList<String> stringArray) {
-        ArrayList<Integer> result = new ArrayList<>();
-        for (String stringValue : stringArray) {
-            try {
-                result.add(Integer.parseInt(stringValue));
-            } catch(NumberFormatException nfe) {
-                System.out.println("Could not parse " + nfe);
-            }
-        }
-        return result;
     }
 
     public void readFile() {
