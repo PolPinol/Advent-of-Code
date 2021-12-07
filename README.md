@@ -15,5 +15,5 @@ Collection of Advent of Code 2021 problems solved!
 | 5   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day5Gold.java">Hydrothermal Venture</a>     | Java     | Gold   |
 | 6   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day6Silver.java">Lanternfish</a>     | Java     | Silver |
 | 6   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day6Gold.java">Lanternfish</a>     | Java     | Gold   |
-| 7   | -     | Java     | Silver |
-| 7   | -     | Java     | Gold   |
+| 7   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day7Silver.java">The Treachery of Whales</a>      | Java     | Silver |
+| 7   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day7Gold.java">The Treachery of Whales</a>      | Java     | Gold   |
