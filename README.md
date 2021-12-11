@@ -23,3 +23,5 @@ Collection of Advent of Code 2021 problems solved!
 | 9   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day9Gold.java">Smoke Basin</a>      | Java     | Gold   |
 | 10   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day10Silver.java">Syntax Scoring</a>      | Java     | Silver   |
 | 10   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day10Gold.java">Syntax Scoring</a>      | Java     | Gold   |
+| 11   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day11Silver.java">Dumbo Octopus</a>      | Java     | Silver   |
+| 11   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day11Gold.java">Dumbo Octopus</a>      | Java     | Gold   |
