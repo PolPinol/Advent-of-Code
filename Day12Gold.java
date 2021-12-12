@@ -96,14 +96,14 @@ public class Day12Gold {
             }
             isVisited[s] = 1;
             isVisited[d] = 1;
-            printAllPathsUtilGold(s, d, isVisited, pathList);
+            printAllPathsUtilRecursive(s, d, isVisited, pathList);
         }
 
         Set<String> set = new HashSet<>(solutions);
         n_solutions = set.size();
     }
 
-    private void printAllPathsUtilGold(int u, int d, int[] isVisited, ArrayList<Integer> localPathList) {
+    private void printAllPathsUtilRecursive(int u, int d, int[] isVisited, ArrayList<Integer> localPathList) {
         if (u == d) {
             savePath(localPathList);
             return;
@@ -121,7 +121,7 @@ public class Day12Gold {
                     // store current node
                     // in path[]
                     localPathList.add(i);
-                    printAllPathsUtilGold(i, d, isVisited, localPathList);
+                    printAllPathsUtilRecursive(i, d, isVisited, localPathList);
 
                     // remove current node
                     // in path[]
