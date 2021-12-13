@@ -27,3 +27,5 @@ Collection of Advent of Code 2021 problems solved!
 | 11   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day11Gold.java">Dumbo Octopus</a>      | Java     | Gold   |
 | 12   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day12Silver.java">Passage Pathing</a>      | Java     | Silver   |
 | 12   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day12Gold.java">Passage Pathing</a>      | Java     | Gold   |
+| 13   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day13Silver.java">Transparent Origami</a>      | Java     | Silver   |
+| 13   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day13Gold.java">Transparent Origami</a>      | Java     | Gold   |
