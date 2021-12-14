@@ -29,3 +29,5 @@ Collection of Advent of Code 2021 problems solved!
 | 12   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day12Gold.java">Passage Pathing</a>      | Java     | Gold   |
 | 13   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day13Silver.java">Transparent Origami</a>      | Java     | Silver   |
 | 13   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day13Gold.java">Transparent Origami</a>      | Java     | Gold   |
+| 14   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day14Silver.java">Extended Polymerization</a>      | Java     | Silver   |
+| 14   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day14Gold.java">Extended Polymerization</a>      | Java     | Gold   |
