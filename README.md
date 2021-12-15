@@ -31,3 +31,5 @@ Collection of Advent of Code 2021 problems solved!
 | 13   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day13Gold.java">Transparent Origami</a>      | Java     | Gold   |
 | 14   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day14Silver.java">Extended Polymerization</a>      | Java     | Silver   |
 | 14   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day14Gold.java">Extended Polymerization</a>      | Java     | Gold   |
+| 15   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day15Silver.java">Chiton</a>      | Java     | Silver   |
+| 15   | <a href="https://github.com/PolPinol/Advent-of-Code-2021/blob/main/Day15Gold.java">Chiton</a>      | Java     | Gold   |
