@@ -100,10 +100,12 @@ bool searchHashMap(std::unordered_set<int> s, int value) {
 // initialize a vector
 // std::vector<int> vector;
 // vector.push_back(1);
+// vector.at(2);
 //
 // initialize a array
 // std::array<int, 3> array;
 // array = {1, 1, 1};
+// array[0] = 1;
 //
 // initialize a unordered set
 // std::unordered_set<int> unordered_set;
