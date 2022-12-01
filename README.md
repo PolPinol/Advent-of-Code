@@ -3,8 +3,8 @@
 Collection of Advent of Code 2022 problems solved!
 | Day | Title | Solution |  Type  |
 |:---:|:-----:|:--------:|:------:|
-| 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day1/program.cpp">-</a>   | C++     | Silver |
-| 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day1/program.cpp">-</a>     | C++     | Gold   |
+| 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day1/program.cpp">Calorie Counting</a>   | C++     | Silver |
+| 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day1/program.cpp">Calorie Counting</a>     | C++     | Gold   |
 | 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day2/program.cpp">-</a>   | C++     | Silver |
 | 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day2/program.cpp">-</a>     | C++     | Gold   |
 | 3   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day3/program.cpp">-</a>   | C++     | Silver |
