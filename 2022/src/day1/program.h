@@ -5,6 +5,7 @@
 #define DAY1_PROGRAM_H_
 
 #include "../utils.h"
+#include <array>
 #include <fstream>
 #include <iostream>
 #include <string>

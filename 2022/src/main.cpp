@@ -3,9 +3,9 @@
 #include <iostream>
 
 int main() {
-  int day;
+  int day = 1;
   std::cout << "Day ";
-  std::cin >> day;
+  std::cout << day << std::endl;
 
   switch (day) {
   case 1: {
