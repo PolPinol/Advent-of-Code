@@ -21,8 +21,6 @@ void Program::readFile() {
   _lines.push_back("");
 }
 
-// read file
-
 int Program::silver() {
   int max = 0;
   int elf = 0;
