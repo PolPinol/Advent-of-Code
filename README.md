@@ -5,12 +5,12 @@ Collection of Advent of Code 2022 problems solved!
 |:---:|:-----:|:--------:|:------:|
 | 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day1/program.cpp">Calorie Counting</a>   | C++     | Silver |
 | 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day1/program.cpp">Calorie Counting</a>     | C++     | Gold   |
-| 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day2/program.cpp">-</a>   | C++     | Silver |
-| 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day2/program.cpp">-</a>     | C++     | Gold   |
-| 3   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day3/program.cpp">-</a>   | C++     | Silver |
-| 3   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day3/program.cpp">-</a>     | C++     | Gold   |
-| 4   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day4/program.cpp">-</a>   | C++     | Silver |
-| 4   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day4/program.cpp">-</a>     | C++     | Gold   |
+| 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day2/program.cpp">Rock Paper Scissors</a>   | C++     | Silver |
+| 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day2/program.cpp">Rock Paper Scissors</a>     | C++     | Gold   |
+| 3   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day3/program.cpp">Rucksack Reorganization</a>   | C++     | Silver |
+| 3   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day3/program.cpp">Rucksack Reorganization</a>     | C++     | Gold   |
+| 4   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day4/program.cpp">Camp Cleanup</a>   | C++     | Silver |
+| 4   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day4/program.cpp">Camp Cleanup</a>     | C++     | Gold   |
 | 5   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day5/program.cpp">-</a>   | C++     | Silver |
 | 5   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day5/program.cpp">-</a>     | C++     | Gold   |
 | 6   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2022/src/day6/program.cpp">-</a>   | C++     | Silver |
