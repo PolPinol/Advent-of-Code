@@ -4,10 +4,13 @@
 #ifndef UTILS_PROGRAM_H_
 #define UTILS_PROGRAM_H_
 
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
+#include <queue>
 #include <sstream>
 #include <string>
+#include <tuple>
 #include <unordered_set>
 #include <vector>
 
