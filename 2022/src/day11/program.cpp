@@ -21,17 +21,13 @@ void Program::readFile() {
 int operate(int id, int old) {
   switch (id) {
   case 0:
-    return old * 19;
-    // return old * 7;
+    return old * 7;
   case 1:
-    return old + 6;
-    // return old + 4;
+    return old + 4;
   case 2:
-    return old * old;
-    // return old + 2;
+    return old + 2;
   case 3:
-    return old + 3;
-    // return old + 7;
+    return old + 7;
   case 4:
     return old * 17;
   case 5:
@@ -48,17 +44,13 @@ int operate(int id, int old) {
 long long operateBig(int id, long long old) {
   switch (id) {
   case 0:
-    return old * 19;
-    // return old * 7;
+    return old * 7;
   case 1:
-    return old + 6;
-    // return old + 4;
+    return old + 4;
   case 2:
-    return old * old;
-    // return old + 2;
+    return old + 2;
   case 3:
-    return old + 3;
-    // return old + 7;
+    return old + 7;
   case 4:
     return old * 17;
   case 5:
@@ -173,10 +165,8 @@ int Program::silver() {
   return max * max2;
 }
 
-int Program::gold() {
-  std::cout << std::endl;
+long long Program::gold() {
   std::vector<BigMonkey> monkeys;
-  std::vector<std::tuple<int, std::array<int, 4>, std::vector<int>>> prizes;
 
   for (int i = 0; i < (int)_lines.size(); i++) {
     i++;
@@ -189,11 +179,6 @@ int Program::gold() {
         continue;
       }
       itemsInt.push(std::stoi(utils::split(items[k], ',')[0]));
-      std::array<int, 4> arr = {0, 0, 0, 0};
-      arr[monkeys.size()] = 1;
-      std::vector<int> vec;
-      prizes.push_back(
-          std::make_tuple(std::stoi(utils::split(items[k], ',')[0]), arr, vec));
     }
 
     i++;
@@ -215,56 +200,24 @@ int Program::gold() {
     monkeys.push_back(BigMonkey(itemsInt, divisible, throwTrue, throwFalse));
   }
 
-  // print prizes
-  for (int round = 0; round < 20; round++) {
-    // print prizes start
+  for (int round = 0; round < 10000; round++) {
+    for (int i = 0; i < (int)monkeys.size(); i++) {
+      int divisible = monkeys[i].divisible;
+      int throwIdTrue = monkeys[i].monkeyThrowTrue;
+      int throwIdFalse = monkeys[i].monkeyThrowFalse;
 
-    // iterate vector from tuple
-    for (int i = 0; i < (int)prizes.size(); i++) {
-      // get first from tuple
-      const auto get = std::get<2>(prizes[i]);
-      for (int k = 0; k < (int)get.size(); k++) {
-        std::cout << get[k] << " -> ";
-      }
-      std::cout << std::endl;
-    }
-    std::cout << std::endl;
+      while (!monkeys[i].items.empty()) {
+        long long item = monkeys[i].items.front();
+        monkeys[i].items.pop();
+        monkeys[i].inspected++;
 
-    for (int i = 0; i < (int)prizes.size(); i++) {
-      // get first from tuple
-      std::cout << std::get<0>(prizes[i]) << " -> ";
-      for (int k = 0; k < 4; k++) {
-        std::cout << std::get<1>(prizes[i])[k] << " ";
-      }
-      std::cout << std::endl;
-    }
-    std::cout << std::endl;
-    std::cout << std::endl;
+        item = item % (17 * 3 * 5 * 7 * 11 * 19 * 2 * 13);
+        long long level = operateBig(i, item);
 
-    // iterate monkeys
-    for (int i = 0; i < (int)prizes.size(); i++) {
-      int item = std::get<0>(prizes[i]);
-
-      for (int k = 0; k < (int)monkeys.size(); k++) {
-        if (std::get<1>(prizes[i])[k] == 1) {
-          int idMonkey = k;
-          int divisible = monkeys[idMonkey].divisible;
-          int throwIdTrue = monkeys[idMonkey].monkeyThrowTrue;
-          int throwIdFalse = monkeys[idMonkey].monkeyThrowFalse;
-
-          long long level = operateBig(idMonkey, item);
-          if (level % divisible == 0) {
-            std::get<0>(prizes[i]) = level;
-            std::get<1>(prizes[i])[throwIdTrue] = 1;
-            std::get<1>(prizes[i])[idMonkey] = 0;
-            std::get<2>(prizes[i]).push_back(idMonkey);
-          } else {
-            std::get<0>(prizes[i]) = level;
-            std::get<1>(prizes[i])[throwIdFalse] = 1;
-            std::get<1>(prizes[i])[idMonkey] = 0;
-            std::get<2>(prizes[i]).push_back(idMonkey);
-          }
-          break;
+        if (level % divisible == 0) {
+          monkeys[throwIdTrue].items.push(level);
+        } else {
+          monkeys[throwIdFalse].items.push(level);
         }
       }
     }
@@ -283,8 +236,6 @@ int Program::gold() {
       max2 = monkeys[i].inspected;
     }
   }
-
-  std::cout << max << " " << max2 << std::endl;
 
   return max * max2;
 }

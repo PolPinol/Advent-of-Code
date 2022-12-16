@@ -18,7 +18,7 @@ public:
   Program();
   void readFile();
   int silver();
-  int gold();
+  long long gold();
 
 private:
   std::vector<std::string> _lines;
