@@ -22,7 +22,7 @@ Collection of Advent of Code 2022 problems solved!
 Collection of Advent of Code 2021 problems solved!
 | Day | Title | Solution |  Type  |
 |:---:|:-----:|:--------:|:------:|
-| 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2021/Day1Silver.java">Sonar Sweep</a>     | Java     | Silver |
+| 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2021/day1.Day1Silver.java">Sonar Sweep</a>     | Java     | Silver |
 | 1   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2021/Day1Gold.java">Sonar Sweep</a>     | Java     | Gold   |
 | 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2021/Day2Silver.java">Dive!</a>     | Java     | Silver |
 | 2   | <a href="https://github.com/PolPinol/Advent-of-Code/blob/main/2021/Day2Gold.java">Dive!</a>     | Java     | Gold   |

@@ -37,7 +37,7 @@ public class Day1Gold {
         }
 
 
-        // Day1Silver algorithm for new input with integers
+        // day1.Day1Silver algorithm for new input with integers
         for (int i = 0; i < newInputInteger.size()-1; i++) {
             if (newInputInteger.get(i) < newInputInteger.get(i+1)) {
                 count++;
