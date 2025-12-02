@@ -60,6 +60,7 @@ public class Day2Silver {
         // Execute algorithm
         System.out.println("Start: Executing algorithm");
         for (Range range : ranges) {
+            // System.out.println("Range " + range.min() + "-" + range.max());
             for (Id invalidId : invalidIds) {
                 if (range.min() > invalidId.value()) {
                     continue;
@@ -69,6 +70,7 @@ public class Day2Silver {
                     break;
                 }
 
+                // System.out.println("\tsolution: " + invalidId.value());
                 count += invalidId.value();
             }
         }
