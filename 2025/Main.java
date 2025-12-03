@@ -1,4 +1,6 @@
 import day2.Day2Silver;
+import day3.Day3Gold;
+import day3.Day3Silver;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -11,7 +13,7 @@ public class Main {
         readFile();
         System.out.println("[Info] File read.");
 
-        Day2Silver algorithm = new Day2Silver(linesFromFile);
+        Day3Gold algorithm = new Day3Gold(linesFromFile);
         System.out.println("[Info] Executing algorithm: " + algorithm.name());
         algorithm.execute();
         System.out.println("[Info] Finished.");
